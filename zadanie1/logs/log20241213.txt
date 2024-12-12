@@ -1,0 +1,1239 @@
+2024-12-13 02:34:38.681 +05:00 [WRN] Overriding address(es) 'http://localhost:5232'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-12-13 02:34:38.711 +05:00 [INF] Now listening on: http://127.0.0.1:5231
+2024-12-13 02:34:38.712 +05:00 [INF] Now listening on: https://127.0.0.1:5232
+2024-12-13 02:34:38.713 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-13 02:34:38.714 +05:00 [INF] Hosting environment: Development
+2024-12-13 02:34:38.714 +05:00 [INF] Content root path: C:\Users\Bauyr\Desktop\KidsstoreTest\zadanie1
+2024-12-13 02:34:59.418 +05:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5232/products - application/json 299
+2024-12-13 02:34:59.437 +05:00 [INF] Request finished HTTP/1.1 GET https://127.0.0.1:5232/products - 404 0 null 20.2542ms
+2024-12-13 02:34:59.442 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://127.0.0.1:5232/products, Response status code: 404
+2024-12-13 02:35:17.813 +05:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5232/products - application/json 299
+2024-12-13 02:35:17.815 +05:00 [INF] Request finished HTTP/1.1 GET https://127.0.0.1:5232/products - 404 0 null 1.7556ms
+2024-12-13 02:35:17.817 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://127.0.0.1:5232/products, Response status code: 404
+2024-12-13 02:35:37.424 +05:00 [INF] Request starting HTTP/1.1 POST https://127.0.0.1:5232/products - application/json 299
+2024-12-13 02:35:37.426 +05:00 [INF] Request finished HTTP/1.1 POST https://127.0.0.1:5232/products - 404 0 null 1.9702ms
+2024-12-13 02:35:37.427 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://127.0.0.1:5232/products, Response status code: 404
+2024-12-13 02:37:15.477 +05:00 [INF] Request starting HTTP/1.1 POST https://127.0.0.1:5232/api/products - application/json 299
+2024-12-13 02:37:15.479 +05:00 [INF] Request finished HTTP/1.1 POST https://127.0.0.1:5232/api/products - 404 0 null 1.3817ms
+2024-12-13 02:37:15.480 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://127.0.0.1:5232/api/products, Response status code: 404
+2024-12-13 02:37:26.455 +05:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5232/api/products - application/json 299
+2024-12-13 02:37:26.456 +05:00 [INF] Request finished HTTP/1.1 GET https://127.0.0.1:5232/api/products - 404 0 null 1.4074ms
+2024-12-13 02:37:26.458 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://127.0.0.1:5232/api/products, Response status code: 404
+2024-12-13 02:40:27.876 +05:00 [INF] Application is shutting down...
+2024-12-13 02:40:29.537 +05:00 [WRN] Overriding address(es) 'http://localhost:5232'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-12-13 02:40:29.567 +05:00 [INF] Now listening on: http://127.0.0.1:5231
+2024-12-13 02:40:29.568 +05:00 [INF] Now listening on: https://127.0.0.1:5232
+2024-12-13 02:40:29.568 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-13 02:40:29.569 +05:00 [INF] Hosting environment: Development
+2024-12-13 02:40:29.569 +05:00 [INF] Content root path: C:\Users\Bauyr\Desktop\KidsstoreTest\zadanie1
+2024-12-13 02:40:35.180 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/products/1 - application/json 299
+2024-12-13 02:40:35.196 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/products/1 - 404 0 null 17.1923ms
+2024-12-13 02:40:35.201 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5232/api/products/1, Response status code: 404
+2024-12-13 02:43:47.053 +05:00 [INF] Application is shutting down...
+2024-12-13 02:43:58.780 +05:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-12-13 02:43:58.902 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2024-12-13 02:43:58.907 +05:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2024-12-13 02:43:58.907 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2024-12-13 02:43:58.909 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-12-13 02:43:58.914 +05:00 [INF] No migrations were applied. The database is already up to date.
+2024-12-13 02:44:55.602 +05:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-12-13 02:44:55.719 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2024-12-13 02:44:55.724 +05:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2024-12-13 02:44:55.725 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2024-12-13 02:44:55.726 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-12-13 02:44:55.731 +05:00 [INF] No migrations were applied. The database is already up to date.
+2024-12-13 02:44:58.234 +05:00 [WRN] Overriding address(es) 'http://localhost:5232'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-12-13 02:44:58.262 +05:00 [INF] Now listening on: http://127.0.0.1:5231
+2024-12-13 02:44:58.263 +05:00 [INF] Now listening on: https://127.0.0.1:5232
+2024-12-13 02:44:58.263 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-13 02:44:58.264 +05:00 [INF] Hosting environment: Development
+2024-12-13 02:44:58.264 +05:00 [INF] Content root path: C:\Users\Bauyr\Desktop\KidsstoreTest\zadanie1
+2024-12-13 02:45:12.874 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/products - application/json 299
+2024-12-13 02:45:12.891 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/products - 404 0 null 17.5726ms
+2024-12-13 02:45:12.895 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5232/api/products, Response status code: 404
+2024-12-13 02:46:08.363 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/products - application/json null
+2024-12-13 02:46:08.365 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/products - 404 0 null 2.0975ms
+2024-12-13 02:46:08.367 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5232/api/products, Response status code: 404
+2024-12-13 02:48:10.108 +05:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5232/api/products - application/json null
+2024-12-13 02:48:10.110 +05:00 [INF] Request finished HTTP/1.1 GET https://127.0.0.1:5232/api/products - 404 0 null 1.8063ms
+2024-12-13 02:48:10.112 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://127.0.0.1:5232/api/products, Response status code: 404
+2024-12-13 02:48:58.823 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5232/api/products - application/json 105
+2024-12-13 02:48:58.824 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5232/api/products - 404 0 null 1.008ms
+2024-12-13 02:48:58.825 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:5232/api/products, Response status code: 404
+2024-12-13 02:48:59.775 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5232/api/products - application/json 105
+2024-12-13 02:48:59.777 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5232/api/products - 404 0 null 1.7783ms
+2024-12-13 02:48:59.779 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:5232/api/products, Response status code: 404
+2024-12-13 02:51:23.693 +05:00 [INF] Application is shutting down...
+2024-12-13 02:51:25.690 +05:00 [WRN] Overriding address(es) 'http://localhost:5232'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-12-13 02:51:25.718 +05:00 [INF] Now listening on: http://127.0.0.1:5231
+2024-12-13 02:51:25.719 +05:00 [INF] Now listening on: https://127.0.0.1:5232
+2024-12-13 02:51:25.719 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-13 02:51:25.720 +05:00 [INF] Hosting environment: Development
+2024-12-13 02:51:25.720 +05:00 [INF] Content root path: C:\Users\Bauyr\Desktop\KidsstoreTest\zadanie1
+2024-12-13 02:51:37.981 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5232/api/product - application/json 105
+2024-12-13 02:51:37.995 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 02:51:38.008 +05:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] CreateProduct(TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 02:51:38.278 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-13 02:51:38.299 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie) in 288.1747ms
+2024-12-13 02:51:38.300 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 02:51:38.303 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5232/api/product - 400 null application/problem+json; charset=utf-8 322.1404ms
+2024-12-13 02:51:44.272 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5232/api/product - application/json 105
+2024-12-13 02:51:44.274 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 02:51:44.275 +05:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] CreateProduct(TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 02:51:44.279 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-13 02:51:44.280 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie) in 4.0519ms
+2024-12-13 02:51:44.281 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 02:51:44.282 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5232/api/product - 400 null application/problem+json; charset=utf-8 10.4424ms
+2024-12-13 02:51:54.333 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5232/api/product - application/json 99
+2024-12-13 02:51:54.335 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 02:51:54.335 +05:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] CreateProduct(TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 02:51:54.338 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-13 02:51:54.338 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie) in 2.1539ms
+2024-12-13 02:51:54.339 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 02:51:54.340 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5232/api/product - 400 null application/problem+json; charset=utf-8 6.9445ms
+2024-12-13 02:51:56.860 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product - application/json 99
+2024-12-13 02:51:56.863 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 02:51:56.866 +05:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TestovoeZadanie.Models.Product]]] GetProducts() on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 02:51:57.209 +05:00 [ERR] Failed executing DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+2024-12-13 02:51:57.221 +05:00 [ERR] An exception occurred while iterating over the results of a query for context type 'TestovoeZadanie.Data.ProductDbContext'.
+Npgsql.PostgresException (0x80004005): 42P01: отношение "Products" не существует
+
+POSITION: 73
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 42P01
+    MessageText: отношение "Products" не существует
+    Position: 73
+    File: parse_relation.c
+    Line: 1452
+    Routine: parserOpenTable
+Npgsql.PostgresException (0x80004005): 42P01: отношение "Products" не существует
+
+POSITION: 73
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 42P01
+    MessageText: отношение "Products" не существует
+    Position: 73
+    File: parse_relation.c
+    Line: 1452
+    Routine: parserOpenTable
+2024-12-13 02:51:57.229 +05:00 [ERR] Ошибка при получении списка продуктов
+Npgsql.PostgresException (0x80004005): 42P01: отношение "Products" не существует
+
+POSITION: 73
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestovoeZadanie.Controllers.ProductController.GetProducts() in C:\Users\Bauyr\Desktop\KidsstoreTest\zadanie1\Controllers\ProductController.cs:line 27
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 42P01
+    MessageText: отношение "Products" не существует
+    Position: 73
+    File: parse_relation.c
+    Line: 1452
+    Routine: parserOpenTable
+2024-12-13 02:51:57.243 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-12-13 02:51:57.244 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie) in 377.225ms
+2024-12-13 02:51:57.245 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 02:51:57.249 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product - 500 null text/plain; charset=utf-8 389.3128ms
+2024-12-13 02:52:41.158 +05:00 [INF] Application is shutting down...
+2024-12-13 02:52:59.091 +05:00 [ERR] An error occurred using the connection to database 'zadanie1' on server 'tcp://localhost:5432'.
+2024-12-13 02:52:59.359 +05:00 [INF] Executed DbCommand (145ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE zadanie1;
+2024-12-13 02:52:59.441 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2024-12-13 02:52:59.446 +05:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2024-12-13 02:52:59.447 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2024-12-13 02:52:59.450 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-12-13 02:52:59.457 +05:00 [INF] Applying migration '20241212215255_InitialCreate'.
+2024-12-13 02:52:59.463 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Products" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Name" text NOT NULL,
+    "Price" numeric NOT NULL,
+    "Description" text NOT NULL,
+    "Category" text NOT NULL,
+    CONSTRAINT "PK_Products" PRIMARY KEY ("Id")
+);
+2024-12-13 02:52:59.465 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20241212215255_InitialCreate', '9.0.0');
+2024-12-13 02:53:03.752 +05:00 [WRN] Overriding address(es) 'http://localhost:5232'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-12-13 02:53:03.781 +05:00 [INF] Now listening on: http://127.0.0.1:5231
+2024-12-13 02:53:03.782 +05:00 [INF] Now listening on: https://127.0.0.1:5232
+2024-12-13 02:53:03.782 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-13 02:53:03.783 +05:00 [INF] Hosting environment: Development
+2024-12-13 02:53:03.783 +05:00 [INF] Content root path: C:\Users\Bauyr\Desktop\KidsstoreTest\zadanie1
+2024-12-13 02:53:07.309 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product - application/json 99
+2024-12-13 02:53:07.326 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 02:53:07.337 +05:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TestovoeZadanie.Models.Product]]] GetProducts() on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 02:53:07.717 +05:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+2024-12-13 02:53:07.726 +05:00 [INF] Успешно получен список всех продуктов.
+2024-12-13 02:53:07.730 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TestovoeZadanie.Models.Product, TestovoeZadanie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-13 02:53:07.759 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie) in 419.8181ms
+2024-12-13 02:53:07.760 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 02:53:07.765 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product - 200 null application/json; charset=utf-8 457.2505ms
+2024-12-13 02:53:11.053 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5232/api/product - application/json 99
+2024-12-13 02:53:11.055 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 02:53:11.060 +05:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] CreateProduct(TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 02:53:11.079 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-13 02:53:11.092 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie) in 31.6335ms
+2024-12-13 02:53:11.093 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 02:53:11.094 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5232/api/product - 400 null application/problem+json; charset=utf-8 40.5063ms
+2024-12-13 02:54:51.293 +05:00 [INF] Application is shutting down...
+2024-12-13 02:55:17.830 +05:00 [WRN] Overriding address(es) 'http://localhost:5232'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-12-13 02:55:17.862 +05:00 [INF] Now listening on: http://127.0.0.1:5231
+2024-12-13 02:55:17.862 +05:00 [INF] Now listening on: https://127.0.0.1:5232
+2024-12-13 02:55:17.863 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-13 02:55:17.863 +05:00 [INF] Hosting environment: Development
+2024-12-13 02:55:17.864 +05:00 [INF] Content root path: C:\Users\Bauyr\Desktop\KidsstoreTest\zadanie1
+2024-12-13 02:55:21.160 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5232/api/product - application/json 126
+2024-12-13 02:55:21.174 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 02:55:21.186 +05:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] CreateProduct(TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 02:55:21.616 +05:00 [INF] Executed DbCommand (23ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Category", "Description", "Name", "Price")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-12-13 02:55:21.634 +05:00 [INF] Продукт с ID 1 успешно создан.
+2024-12-13 02:55:21.637 +05:00 [INF] Executing CreatedAtActionResult, writing value of type 'TestovoeZadanie.Models.Product'.
+2024-12-13 02:55:21.654 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie) in 465.5606ms
+2024-12-13 02:55:21.655 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 02:55:21.659 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5232/api/product - 201 null application/json; charset=utf-8 499.7442ms
+2024-12-13 02:55:31.726 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5232/api/product - application/json 126
+2024-12-13 02:55:31.728 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 02:55:31.729 +05:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] CreateProduct(TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 02:55:31.769 +05:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Category", "Description", "Name", "Price")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-12-13 02:55:31.770 +05:00 [INF] Продукт с ID 2 успешно создан.
+2024-12-13 02:55:31.771 +05:00 [INF] Executing CreatedAtActionResult, writing value of type 'TestovoeZadanie.Models.Product'.
+2024-12-13 02:55:31.772 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie) in 41.4139ms
+2024-12-13 02:55:31.772 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 02:55:31.773 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5232/api/product - 201 null application/json; charset=utf-8 47.3089ms
+2024-12-13 02:55:35.098 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product - application/json 126
+2024-12-13 02:55:35.102 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 02:55:35.105 +05:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TestovoeZadanie.Models.Product]]] GetProducts() on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 02:55:35.188 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+2024-12-13 02:55:35.193 +05:00 [INF] Успешно получен список всех продуктов.
+2024-12-13 02:55:35.193 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TestovoeZadanie.Models.Product, TestovoeZadanie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-13 02:55:35.197 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie) in 91.1225ms
+2024-12-13 02:55:35.198 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 02:55:35.199 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product - 200 null application/json; charset=utf-8 100.5431ms
+2024-12-13 02:55:42.982 +05:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:5232/api/product/2 - application/json 126
+2024-12-13 02:55:42.984 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.DeleteProduct (TestovoeZadanie)'
+2024-12-13 02:55:42.986 +05:00 [INF] Route matched with {action = "DeleteProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProduct(Int32) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 02:55:43.030 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+WHERE p."Id" = @__p_0
+LIMIT 1
+2024-12-13 02:55:43.042 +05:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = @p0;
+2024-12-13 02:55:43.044 +05:00 [INF] Продукт с ID 2 успешно удален.
+2024-12-13 02:55:43.048 +05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-12-13 02:55:43.048 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.DeleteProduct (TestovoeZadanie) in 60.9167ms
+2024-12-13 02:55:43.049 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.DeleteProduct (TestovoeZadanie)'
+2024-12-13 02:55:43.049 +05:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:5232/api/product/2 - 204 null null 67.2424ms
+2024-12-13 02:55:46.508 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product - application/json 126
+2024-12-13 02:55:46.510 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 02:55:46.511 +05:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TestovoeZadanie.Models.Product]]] GetProducts() on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 02:55:46.513 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+2024-12-13 02:55:46.514 +05:00 [INF] Успешно получен список всех продуктов.
+2024-12-13 02:55:46.515 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TestovoeZadanie.Models.Product, TestovoeZadanie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-13 02:55:46.515 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie) in 3.772ms
+2024-12-13 02:55:46.516 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 02:55:46.517 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product - 200 null application/json; charset=utf-8 8.7832ms
+2024-12-13 02:55:55.827 +05:00 [INF] Request starting HTTP/1.1 PUT https://localhost:5232/api/product/1 - application/json 126
+2024-12-13 02:55:55.828 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie)'
+2024-12-13 02:55:55.830 +05:00 [INF] Route matched with {action = "UpdateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateProduct(Int32, TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 02:55:55.833 +05:00 [WRN] Неверный ID в запросе: ожидаемый 1, полученный 0
+2024-12-13 02:55:55.833 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-12-13 02:55:55.834 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie) in 2.4417ms
+2024-12-13 02:55:55.835 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie)'
+2024-12-13 02:55:55.836 +05:00 [INF] Request finished HTTP/1.1 PUT https://localhost:5232/api/product/1 - 400 null text/plain; charset=utf-8 8.8552ms
+2024-12-13 02:56:03.295 +05:00 [INF] Request starting HTTP/1.1 PUT https://localhost:5232/api/product/0 - application/json 126
+2024-12-13 02:56:03.296 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie)'
+2024-12-13 02:56:03.297 +05:00 [INF] Route matched with {action = "UpdateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateProduct(Int32, TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 02:56:03.300 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p4='?' (DbType = Int32), @p0='?', @p1='?', @p2='?', @p3='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Products" SET "Category" = @p0, "Description" = @p1, "Name" = @p2, "Price" = @p3
+WHERE "Id" = @p4;
+2024-12-13 02:56:03.314 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Products" AS p
+    WHERE p."Id" = @__id_0)
+2024-12-13 02:56:03.316 +05:00 [WRN] Продукт с ID 0 не найден при обновлении.
+2024-12-13 02:56:03.317 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-12-13 02:56:03.317 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie) in 19.6341ms
+2024-12-13 02:56:03.318 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie)'
+2024-12-13 02:56:03.319 +05:00 [INF] Request finished HTTP/1.1 PUT https://localhost:5232/api/product/0 - 404 null text/plain; charset=utf-8 23.5965ms
+2024-12-13 02:56:06.546 +05:00 [INF] Request starting HTTP/1.1 PUT https://localhost:5232/api/product/1 - application/json 126
+2024-12-13 02:56:06.547 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie)'
+2024-12-13 02:56:06.548 +05:00 [INF] Route matched with {action = "UpdateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateProduct(Int32, TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 02:56:06.549 +05:00 [WRN] Неверный ID в запросе: ожидаемый 1, полученный 0
+2024-12-13 02:56:06.549 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-12-13 02:56:06.549 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie) in 1.1936ms
+2024-12-13 02:56:06.550 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie)'
+2024-12-13 02:56:06.551 +05:00 [INF] Request finished HTTP/1.1 PUT https://localhost:5232/api/product/1 - 400 null text/plain; charset=utf-8 4.4088ms
+2024-12-13 02:56:51.423 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product/1 - application/json 126
+2024-12-13 02:56:51.425 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProduct (TestovoeZadanie)'
+2024-12-13 02:56:51.428 +05:00 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] GetProduct(Int32) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 02:56:51.431 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+WHERE p."Id" = @__p_0
+LIMIT 1
+2024-12-13 02:56:51.432 +05:00 [INF] Продукт с ID 1 успешно найден.
+2024-12-13 02:56:51.432 +05:00 [INF] Executing OkObjectResult, writing value of type 'TestovoeZadanie.Models.Product'.
+2024-12-13 02:56:51.433 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProduct (TestovoeZadanie) in 5.1366ms
+2024-12-13 02:56:51.434 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProduct (TestovoeZadanie)'
+2024-12-13 02:56:51.435 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product/1 - 200 null application/json; charset=utf-8 11.3613ms
+2024-12-13 02:57:03.163 +05:00 [INF] Request starting HTTP/1.1 PUT https://localhost:5232/api/product/1 - application/json 105
+2024-12-13 02:57:03.164 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie)'
+2024-12-13 02:57:03.164 +05:00 [INF] Route matched with {action = "UpdateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateProduct(Int32, TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 02:57:03.168 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-13 02:57:03.178 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie) in 13.264ms
+2024-12-13 02:57:03.179 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie)'
+2024-12-13 02:57:03.180 +05:00 [INF] Request finished HTTP/1.1 PUT https://localhost:5232/api/product/1 - 400 null application/problem+json; charset=utf-8 17.1696ms
+2024-12-13 02:57:26.972 +05:00 [INF] Request starting HTTP/1.1 PUT https://localhost:5232/api/product/1 - application/json 140
+2024-12-13 02:57:26.973 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie)'
+2024-12-13 02:57:26.974 +05:00 [INF] Route matched with {action = "UpdateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateProduct(Int32, TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 02:57:26.982 +05:00 [INF] Executed DbCommand (7ms) [Parameters=[@p4='?' (DbType = Int32), @p0='?', @p1='?', @p2='?', @p3='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Products" SET "Category" = @p0, "Description" = @p1, "Name" = @p2, "Price" = @p3
+WHERE "Id" = @p4;
+2024-12-13 02:57:26.984 +05:00 [INF] Продукт с ID 1 успешно обновлен.
+2024-12-13 02:57:26.984 +05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-12-13 02:57:26.985 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie) in 9.7636ms
+2024-12-13 02:57:26.985 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie)'
+2024-12-13 02:57:26.986 +05:00 [INF] Request finished HTTP/1.1 PUT https://localhost:5232/api/product/1 - 204 null null 14.2529ms
+2024-12-13 02:57:31.695 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product/1 - application/json 140
+2024-12-13 02:57:31.697 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProduct (TestovoeZadanie)'
+2024-12-13 02:57:31.697 +05:00 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] GetProduct(Int32) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 02:57:31.699 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+WHERE p."Id" = @__p_0
+LIMIT 1
+2024-12-13 02:57:31.701 +05:00 [INF] Продукт с ID 1 успешно найден.
+2024-12-13 02:57:31.701 +05:00 [INF] Executing OkObjectResult, writing value of type 'TestovoeZadanie.Models.Product'.
+2024-12-13 02:57:31.702 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProduct (TestovoeZadanie) in 3.9058ms
+2024-12-13 02:57:31.703 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProduct (TestovoeZadanie)'
+2024-12-13 02:57:31.703 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product/1 - 200 null application/json; charset=utf-8 8.4711ms
+2024-12-13 03:01:03.742 +05:00 [INF] Application is shutting down...
+2024-12-13 03:03:34.970 +05:00 [WRN] Overriding address(es) 'http://localhost:5232'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-12-13 03:03:35.001 +05:00 [INF] Now listening on: http://127.0.0.1:5231
+2024-12-13 03:03:35.001 +05:00 [INF] Now listening on: https://127.0.0.1:5232
+2024-12-13 03:03:35.002 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-13 03:03:35.002 +05:00 [INF] Hosting environment: Development
+2024-12-13 03:03:35.003 +05:00 [INF] Content root path: C:\Users\Bauyr\Desktop\KidsstoreTest\zadanie1
+2024-12-13 03:03:52.585 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/products - application/json 299
+2024-12-13 03:03:52.603 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/products - 404 0 null 17.9205ms
+2024-12-13 03:03:52.607 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5232/api/products, Response status code: 404
+2024-12-13 03:04:08.117 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5232/api/products - application/json 299
+2024-12-13 03:04:08.120 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5232/api/products - 404 0 null 2.5546ms
+2024-12-13 03:04:08.122 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:5232/api/products, Response status code: 404
+2024-12-13 03:04:16.697 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5232/api/products - application/json 299
+2024-12-13 03:04:16.700 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5232/api/products - 404 0 null 2.622ms
+2024-12-13 03:04:16.701 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:5232/api/products, Response status code: 404
+2024-12-13 03:04:51.642 +05:00 [INF] Application is shutting down...
+2024-12-13 03:05:26.345 +05:00 [WRN] Overriding address(es) 'http://localhost:5232'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-12-13 03:05:26.376 +05:00 [INF] Now listening on: http://127.0.0.1:5231
+2024-12-13 03:05:26.377 +05:00 [INF] Now listening on: https://127.0.0.1:5232
+2024-12-13 03:05:26.377 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-13 03:05:26.377 +05:00 [INF] Hosting environment: Development
+2024-12-13 03:05:26.378 +05:00 [INF] Content root path: C:\Users\Bauyr\Desktop\KidsstoreTest\zadanie1
+2024-12-13 03:07:42.663 +05:00 [INF] Application is shutting down...
+2024-12-13 03:08:17.831 +05:00 [WRN] Overriding address(es) 'http://localhost:5232'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-12-13 03:08:17.861 +05:00 [INF] Now listening on: http://127.0.0.1:5231
+2024-12-13 03:08:17.862 +05:00 [INF] Now listening on: https://127.0.0.1:5232
+2024-12-13 03:08:17.863 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-13 03:08:17.863 +05:00 [INF] Hosting environment: Development
+2024-12-13 03:08:17.864 +05:00 [INF] Content root path: C:\Users\Bauyr\Desktop\KidsstoreTest\zadanie1
+2024-12-13 03:08:29.578 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/products - application/json 146
+2024-12-13 03:08:29.596 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/products - 404 0 null 17.9282ms
+2024-12-13 03:08:29.599 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5232/api/products, Response status code: 404
+2024-12-13 03:08:36.446 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product - application/json 146
+2024-12-13 03:08:36.448 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:08:36.457 +05:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TestovoeZadanie.Models.Product]]] GetProducts() on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:08:36.848 +05:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+2024-12-13 03:08:36.890 +05:00 [INF] Успешно получен список всех продуктов.
+2024-12-13 03:08:36.893 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TestovoeZadanie.Models.Product, TestovoeZadanie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-13 03:08:36.924 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie) in 464.3806ms
+2024-12-13 03:08:36.925 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:08:36.929 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product - 200 null application/json; charset=utf-8 483.2957ms
+2024-12-13 03:08:48.772 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5232/api/product - application/json 146
+2024-12-13 03:08:48.773 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:08:48.778 +05:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] CreateProduct(TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:08:48.844 +05:00 [ERR] Failed executing DbCommand (7ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?', @p2='?', @p3='?', @p4='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "Category", "Description", "Name", "Price")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-12-13 03:08:48.854 +05:00 [ERR] An exception occurred in the database while saving changes for context type 'TestovoeZadanie.Data.ProductDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_Products"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_Products"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Products
+    ConstraintName: PK_Products
+    File: nbtinsert.c
+    Line: 673
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_Products"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_Products"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Products
+    ConstraintName: PK_Products
+    File: nbtinsert.c
+    Line: 673
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-12-13 03:08:48.864 +05:00 [ERR] Ошибка при создании продукта.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_Products"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_Products"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Products
+    ConstraintName: PK_Products
+    File: nbtinsert.c
+    Line: 673
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at TestovoeZadanie.Controllers.ProductController.CreateProduct(Product product) in C:\Users\Bauyr\Desktop\KidsstoreTest\zadanie1\Controllers\ProductController.cs:line 67
+2024-12-13 03:08:48.878 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-12-13 03:08:48.879 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie) in 100.5476ms
+2024-12-13 03:08:48.880 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:08:48.881 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5232/api/product - 500 null text/plain; charset=utf-8 109.0866ms
+2024-12-13 03:09:22.262 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5232/api/product - application/json 144
+2024-12-13 03:09:22.264 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:09:22.264 +05:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] CreateProduct(TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:09:22.298 +05:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?', @p2='?', @p3='?', @p4='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "Category", "Description", "Name", "Price")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-12-13 03:09:22.305 +05:00 [ERR] An exception occurred in the database while saving changes for context type 'TestovoeZadanie.Data.ProductDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_Products"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_Products"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Products
+    ConstraintName: PK_Products
+    File: nbtinsert.c
+    Line: 673
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_Products"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_Products"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Products
+    ConstraintName: PK_Products
+    File: nbtinsert.c
+    Line: 673
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-12-13 03:09:22.326 +05:00 [ERR] Ошибка при создании продукта.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_Products"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_Products"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Products
+    ConstraintName: PK_Products
+    File: nbtinsert.c
+    Line: 673
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at TestovoeZadanie.Controllers.ProductController.CreateProduct(Product product) in C:\Users\Bauyr\Desktop\KidsstoreTest\zadanie1\Controllers\ProductController.cs:line 67
+2024-12-13 03:09:22.331 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-12-13 03:09:22.332 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie) in 66.8634ms
+2024-12-13 03:09:22.333 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:09:22.333 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5232/api/product - 500 null text/plain; charset=utf-8 70.9434ms
+2024-12-13 03:09:34.299 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5232/api/product/1 - application/json 140
+2024-12-13 03:09:34.301 +05:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-12-13 03:09:34.301 +05:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-12-13 03:09:34.302 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5232/api/product/1 - 405 0 null 2.5022ms
+2024-12-13 03:09:58.037 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5232/api/product - application/json 140
+2024-12-13 03:09:58.038 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:09:58.038 +05:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] CreateProduct(TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:09:58.042 +05:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?', @p2='?', @p3='?', @p4='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "Category", "Description", "Name", "Price")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-12-13 03:09:58.044 +05:00 [ERR] An exception occurred in the database while saving changes for context type 'TestovoeZadanie.Data.ProductDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_Products"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_Products"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Products
+    ConstraintName: PK_Products
+    File: nbtinsert.c
+    Line: 673
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_Products"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_Products"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Products
+    ConstraintName: PK_Products
+    File: nbtinsert.c
+    Line: 673
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-12-13 03:09:58.051 +05:00 [ERR] Ошибка при создании продукта.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_Products"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_Products"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Products
+    ConstraintName: PK_Products
+    File: nbtinsert.c
+    Line: 673
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at TestovoeZadanie.Controllers.ProductController.CreateProduct(Product product) in C:\Users\Bauyr\Desktop\KidsstoreTest\zadanie1\Controllers\ProductController.cs:line 67
+2024-12-13 03:09:58.056 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-12-13 03:09:58.057 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie) in 17.1197ms
+2024-12-13 03:09:58.057 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:09:58.058 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5232/api/product - 500 null text/plain; charset=utf-8 21.4607ms
+2024-12-13 03:10:48.747 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5232/api/product - application/json 126
+2024-12-13 03:10:48.749 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:10:48.750 +05:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] CreateProduct(TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:10:48.762 +05:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Category", "Description", "Name", "Price")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-12-13 03:10:48.775 +05:00 [INF] Продукт с ID 3 успешно создан.
+2024-12-13 03:10:48.776 +05:00 [INF] Executing CreatedAtActionResult, writing value of type 'TestovoeZadanie.Models.Product'.
+2024-12-13 03:10:48.785 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie) in 34.5234ms
+2024-12-13 03:10:48.786 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:10:48.787 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5232/api/product - 201 null application/json; charset=utf-8 39.4519ms
+2024-12-13 03:10:53.289 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5232/api/product - application/json 126
+2024-12-13 03:10:53.291 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:10:53.291 +05:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] CreateProduct(TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:10:53.299 +05:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Category", "Description", "Name", "Price")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-12-13 03:10:53.301 +05:00 [INF] Продукт с ID 4 успешно создан.
+2024-12-13 03:10:53.302 +05:00 [INF] Executing CreatedAtActionResult, writing value of type 'TestovoeZadanie.Models.Product'.
+2024-12-13 03:10:53.303 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie) in 10.5462ms
+2024-12-13 03:10:53.303 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:10:53.304 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5232/api/product - 201 null application/json; charset=utf-8 15.2003ms
+2024-12-13 03:11:00.974 +05:00 [INF] Application is shutting down...
+2024-12-13 03:11:03.272 +05:00 [WRN] Overriding address(es) 'http://localhost:5232'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-12-13 03:11:03.301 +05:00 [INF] Now listening on: http://127.0.0.1:5231
+2024-12-13 03:11:03.301 +05:00 [INF] Now listening on: https://127.0.0.1:5232
+2024-12-13 03:11:03.302 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-13 03:11:03.302 +05:00 [INF] Hosting environment: Development
+2024-12-13 03:11:03.303 +05:00 [INF] Content root path: C:\Users\Bauyr\Desktop\KidsstoreTest\zadanie1
+2024-12-13 03:11:03.970 +05:00 [INF] Application is shutting down...
+2024-12-13 03:11:37.191 +05:00 [WRN] Overriding address(es) 'http://localhost:5232'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-12-13 03:11:37.221 +05:00 [INF] Now listening on: http://127.0.0.1:5231
+2024-12-13 03:11:37.221 +05:00 [INF] Now listening on: https://127.0.0.1:5232
+2024-12-13 03:11:37.222 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-13 03:11:37.222 +05:00 [INF] Hosting environment: Development
+2024-12-13 03:11:37.222 +05:00 [INF] Content root path: C:\Users\Bauyr\Desktop\KidsstoreTest\zadanie1
+2024-12-13 03:11:47.213 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product - application/json 126
+2024-12-13 03:11:47.239 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:11:47.253 +05:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TestovoeZadanie.Models.Product]]] GetProducts() on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:11:47.874 +05:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+2024-12-13 03:11:47.940 +05:00 [INF] Успешно получен список всех продуктов.
+2024-12-13 03:11:47.946 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TestovoeZadanie.Models.Product, TestovoeZadanie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-13 03:11:47.999 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie) in 742.9351ms
+2024-12-13 03:11:48.001 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:11:48.007 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product - 200 null application/json; charset=utf-8 795.3361ms
+2024-12-13 03:12:05.296 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5232/api/product - application/json 123
+2024-12-13 03:12:05.299 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:12:05.305 +05:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] CreateProduct(TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:12:05.419 +05:00 [INF] Executed DbCommand (14ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Category", "Description", "Name", "Price")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-12-13 03:12:05.434 +05:00 [INF] Продукт с ID 5 успешно создан.
+2024-12-13 03:12:05.435 +05:00 [INF] Executing CreatedAtActionResult, writing value of type 'TestovoeZadanie.Models.Product'.
+2024-12-13 03:12:05.445 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie) in 137.8687ms
+2024-12-13 03:12:05.446 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:12:05.447 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5232/api/product - 201 null application/json; charset=utf-8 150.6093ms
+2024-12-13 03:12:09.517 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product - application/json 123
+2024-12-13 03:12:09.520 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:12:09.520 +05:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TestovoeZadanie.Models.Product]]] GetProducts() on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:12:09.565 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+2024-12-13 03:12:09.567 +05:00 [INF] Успешно получен список всех продуктов.
+2024-12-13 03:12:09.568 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TestovoeZadanie.Models.Product, TestovoeZadanie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-13 03:12:09.568 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie) in 47.0534ms
+2024-12-13 03:12:09.569 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:12:09.570 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product - 200 null application/json; charset=utf-8 52.9262ms
+2024-12-13 03:12:25.978 +05:00 [INF] Request starting HTTP/1.1 PUT https://localhost:5232/api/product/4 - application/json 122
+2024-12-13 03:12:25.979 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie)'
+2024-12-13 03:12:25.983 +05:00 [INF] Route matched with {action = "UpdateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateProduct(Int32, TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:12:25.987 +05:00 [WRN] Неверный ID в запросе: ожидаемый 4, полученный 0
+2024-12-13 03:12:25.988 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-12-13 03:12:25.989 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie) in 4.7118ms
+2024-12-13 03:12:25.989 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie)'
+2024-12-13 03:12:25.990 +05:00 [INF] Request finished HTTP/1.1 PUT https://localhost:5232/api/product/4 - 400 null text/plain; charset=utf-8 12.3205ms
+2024-12-13 03:12:40.384 +05:00 [INF] Request starting HTTP/1.1 PUT https://localhost:5232/api/product/4 - application/json 136
+2024-12-13 03:12:40.386 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie)'
+2024-12-13 03:12:40.386 +05:00 [INF] Route matched with {action = "UpdateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateProduct(Int32, TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:12:40.394 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@p4='?' (DbType = Int32), @p0='?', @p1='?', @p2='?', @p3='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Products" SET "Category" = @p0, "Description" = @p1, "Name" = @p2, "Price" = @p3
+WHERE "Id" = @p4;
+2024-12-13 03:12:40.396 +05:00 [INF] Продукт с ID 4 успешно обновлен.
+2024-12-13 03:12:40.399 +05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-12-13 03:12:40.399 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie) in 12.0223ms
+2024-12-13 03:12:40.400 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie)'
+2024-12-13 03:12:40.400 +05:00 [INF] Request finished HTTP/1.1 PUT https://localhost:5232/api/product/4 - 204 null null 16.3743ms
+2024-12-13 03:12:43.308 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product/4 - application/json 136
+2024-12-13 03:12:43.310 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProduct (TestovoeZadanie)'
+2024-12-13 03:12:43.313 +05:00 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] GetProduct(Int32) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:12:43.383 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+WHERE p."Id" = @__p_0
+LIMIT 1
+2024-12-13 03:12:43.385 +05:00 [INF] Продукт с ID 4 успешно найден.
+2024-12-13 03:12:43.386 +05:00 [INF] Executing OkObjectResult, writing value of type 'TestovoeZadanie.Models.Product'.
+2024-12-13 03:12:43.386 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProduct (TestovoeZadanie) in 72.4726ms
+2024-12-13 03:12:43.387 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProduct (TestovoeZadanie)'
+2024-12-13 03:12:43.388 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product/4 - 200 null application/json; charset=utf-8 79.2928ms
+2024-12-13 03:12:46.187 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product - application/json 136
+2024-12-13 03:12:46.189 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:12:46.189 +05:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TestovoeZadanie.Models.Product]]] GetProducts() on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:12:46.191 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+2024-12-13 03:12:46.193 +05:00 [INF] Успешно получен список всех продуктов.
+2024-12-13 03:12:46.193 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TestovoeZadanie.Models.Product, TestovoeZadanie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-13 03:12:46.194 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie) in 3.9882ms
+2024-12-13 03:12:46.195 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:12:46.196 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product - 200 null application/json; charset=utf-8 9.0882ms
+2024-12-13 03:12:59.020 +05:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:5232/api/product/3 - application/json 136
+2024-12-13 03:12:59.022 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.DeleteProduct (TestovoeZadanie)'
+2024-12-13 03:12:59.025 +05:00 [INF] Route matched with {action = "DeleteProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProduct(Int32) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:12:59.030 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+WHERE p."Id" = @__p_0
+LIMIT 1
+2024-12-13 03:12:59.040 +05:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = @p0;
+2024-12-13 03:12:59.044 +05:00 [INF] Продукт с ID 3 успешно удален.
+2024-12-13 03:12:59.044 +05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-12-13 03:12:59.045 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.DeleteProduct (TestovoeZadanie) in 18.7725ms
+2024-12-13 03:12:59.045 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.DeleteProduct (TestovoeZadanie)'
+2024-12-13 03:12:59.046 +05:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:5232/api/product/3 - 204 null null 25.671ms
+2024-12-13 03:13:01.189 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product/3 - application/json 136
+2024-12-13 03:13:01.191 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProduct (TestovoeZadanie)'
+2024-12-13 03:13:01.191 +05:00 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] GetProduct(Int32) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:13:01.194 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+WHERE p."Id" = @__p_0
+LIMIT 1
+2024-12-13 03:13:01.195 +05:00 [WRN] Продукт с ID 3 не найден.
+2024-12-13 03:13:01.196 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-12-13 03:13:01.197 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProduct (TestovoeZadanie) in 4.2537ms
+2024-12-13 03:13:01.197 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProduct (TestovoeZadanie)'
+2024-12-13 03:13:01.198 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product/3 - 404 null text/plain; charset=utf-8 8.6935ms
+2024-12-13 03:13:05.315 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product - application/json 136
+2024-12-13 03:13:05.316 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:13:05.317 +05:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TestovoeZadanie.Models.Product]]] GetProducts() on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:13:05.319 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+2024-12-13 03:13:05.320 +05:00 [INF] Успешно получен список всех продуктов.
+2024-12-13 03:13:05.321 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TestovoeZadanie.Models.Product, TestovoeZadanie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-13 03:13:05.322 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie) in 3.8452ms
+2024-12-13 03:13:05.323 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:13:05.323 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product - 200 null application/json; charset=utf-8 8.1536ms
+2024-12-13 03:13:55.537 +05:00 [INF] Application is shutting down...
+2024-12-13 03:22:23.139 +05:00 [WRN] Overriding address(es) 'http://localhost:5232'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-12-13 03:22:23.170 +05:00 [INF] Now listening on: http://127.0.0.1:5231
+2024-12-13 03:22:23.170 +05:00 [INF] Now listening on: https://127.0.0.1:5232
+2024-12-13 03:22:23.171 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-13 03:22:23.171 +05:00 [INF] Hosting environment: Development
+2024-12-13 03:22:23.171 +05:00 [INF] Content root path: C:\Users\Bauyr\Desktop\KidsstoreTest\zadanie1
+2024-12-13 03:22:36.207 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product - application/json 136
+2024-12-13 03:22:36.223 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:22:36.232 +05:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TestovoeZadanie.Models.Product]]] GetProducts() on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:22:36.629 +05:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+2024-12-13 03:22:36.673 +05:00 [INF] Успешно получен список всех продуктов.
+2024-12-13 03:22:36.677 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TestovoeZadanie.Models.Product, TestovoeZadanie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-13 03:22:36.710 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie) in 475.1053ms
+2024-12-13 03:22:36.711 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:22:36.715 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product - 200 null application/json; charset=utf-8 509.205ms
+2024-12-13 03:22:56.828 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5232/api/product - application/json 125
+2024-12-13 03:22:56.830 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:22:56.834 +05:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] CreateProduct(TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:22:56.909 +05:00 [INF] Executed DbCommand (11ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Category", "Description", "Name", "Price")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-12-13 03:22:56.918 +05:00 [INF] Продукт с ID 6 успешно создан.
+2024-12-13 03:22:56.920 +05:00 [INF] Executing CreatedAtActionResult, writing value of type 'TestovoeZadanie.Models.Product'.
+2024-12-13 03:22:56.926 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie) in 90.5175ms
+2024-12-13 03:22:56.927 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:22:56.928 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5232/api/product - 201 null application/json; charset=utf-8 99.9012ms
+2024-12-13 03:23:00.565 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product - application/json 125
+2024-12-13 03:23:00.567 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:23:00.568 +05:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TestovoeZadanie.Models.Product]]] GetProducts() on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:23:00.602 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+2024-12-13 03:23:00.603 +05:00 [INF] Успешно получен список всех продуктов.
+2024-12-13 03:23:00.604 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TestovoeZadanie.Models.Product, TestovoeZadanie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-13 03:23:00.605 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie) in 36.2473ms
+2024-12-13 03:23:00.606 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:23:00.606 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product - 200 null application/json; charset=utf-8 40.9668ms
+2024-12-13 03:23:32.257 +05:00 [INF] Request starting HTTP/1.1 PUT https://localhost:5232/api/product/5 - application/json 134
+2024-12-13 03:23:32.258 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie)'
+2024-12-13 03:23:32.261 +05:00 [INF] Route matched with {action = "UpdateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateProduct(Int32, TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:23:32.273 +05:00 [INF] Executed DbCommand (7ms) [Parameters=[@p4='?' (DbType = Int32), @p0='?', @p1='?', @p2='?', @p3='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Products" SET "Category" = @p0, "Description" = @p1, "Name" = @p2, "Price" = @p3
+WHERE "Id" = @p4;
+2024-12-13 03:23:32.274 +05:00 [INF] Продукт с ID 5 успешно обновлен.
+2024-12-13 03:23:32.276 +05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-12-13 03:23:32.277 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie) in 15.5481ms
+2024-12-13 03:23:32.278 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie)'
+2024-12-13 03:23:32.278 +05:00 [INF] Request finished HTTP/1.1 PUT https://localhost:5232/api/product/5 - 204 null null 21.7569ms
+2024-12-13 03:23:34.927 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product/5 - application/json 134
+2024-12-13 03:23:34.929 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProduct (TestovoeZadanie)'
+2024-12-13 03:23:34.931 +05:00 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] GetProduct(Int32) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:23:34.972 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+WHERE p."Id" = @__p_0
+LIMIT 1
+2024-12-13 03:23:34.974 +05:00 [INF] Продукт с ID 5 успешно найден.
+2024-12-13 03:23:34.974 +05:00 [INF] Executing OkObjectResult, writing value of type 'TestovoeZadanie.Models.Product'.
+2024-12-13 03:23:34.975 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProduct (TestovoeZadanie) in 43.2822ms
+2024-12-13 03:23:34.976 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProduct (TestovoeZadanie)'
+2024-12-13 03:23:34.976 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product/5 - 200 null application/json; charset=utf-8 49.0701ms
+2024-12-13 03:23:38.392 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product - application/json 134
+2024-12-13 03:23:38.393 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:23:38.394 +05:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TestovoeZadanie.Models.Product]]] GetProducts() on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:23:38.397 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+2024-12-13 03:23:38.398 +05:00 [INF] Успешно получен список всех продуктов.
+2024-12-13 03:23:38.398 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TestovoeZadanie.Models.Product, TestovoeZadanie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-13 03:23:38.399 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie) in 4.0886ms
+2024-12-13 03:23:38.400 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:23:38.401 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product - 200 null application/json; charset=utf-8 8.844ms
+2024-12-13 03:23:49.682 +05:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:5232/api/product/5 - application/json 134
+2024-12-13 03:23:49.683 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.DeleteProduct (TestovoeZadanie)'
+2024-12-13 03:23:49.685 +05:00 [INF] Route matched with {action = "DeleteProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProduct(Int32) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:23:49.689 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+WHERE p."Id" = @__p_0
+LIMIT 1
+2024-12-13 03:23:49.701 +05:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = @p0;
+2024-12-13 03:23:49.704 +05:00 [INF] Продукт с ID 5 успешно удален.
+2024-12-13 03:23:49.704 +05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-12-13 03:23:49.704 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.DeleteProduct (TestovoeZadanie) in 17.901ms
+2024-12-13 03:23:49.705 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.DeleteProduct (TestovoeZadanie)'
+2024-12-13 03:23:49.705 +05:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:5232/api/product/5 - 204 null null 23.4486ms
+2024-12-13 03:23:52.417 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product/5 - application/json 134
+2024-12-13 03:23:52.419 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProduct (TestovoeZadanie)'
+2024-12-13 03:23:52.419 +05:00 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] GetProduct(Int32) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:23:52.421 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+WHERE p."Id" = @__p_0
+LIMIT 1
+2024-12-13 03:23:52.423 +05:00 [WRN] Продукт с ID 5 не найден.
+2024-12-13 03:23:52.423 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-12-13 03:23:52.424 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProduct (TestovoeZadanie) in 4.1641ms
+2024-12-13 03:23:52.425 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProduct (TestovoeZadanie)'
+2024-12-13 03:23:52.426 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product/5 - 404 null text/plain; charset=utf-8 8.4039ms
+2024-12-13 03:23:55.104 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product - application/json 134
+2024-12-13 03:23:55.106 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:23:55.106 +05:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TestovoeZadanie.Models.Product]]] GetProducts() on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:23:55.108 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+2024-12-13 03:23:55.110 +05:00 [INF] Успешно получен список всех продуктов.
+2024-12-13 03:23:55.110 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TestovoeZadanie.Models.Product, TestovoeZadanie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-13 03:23:55.111 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie) in 3.9398ms
+2024-12-13 03:23:55.112 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:23:55.113 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product - 200 null application/json; charset=utf-8 8.6693ms
+2024-12-13 03:24:08.965 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5232/api/product - application/json 100
+2024-12-13 03:24:08.966 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:24:08.967 +05:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] CreateProduct(TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:24:08.971 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-13 03:24:08.984 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie) in 16.6519ms
+2024-12-13 03:24:08.985 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:24:08.986 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5232/api/product - 400 null application/problem+json; charset=utf-8 21.3003ms
+2024-12-13 03:24:12.599 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5232/api/product - application/json 99
+2024-12-13 03:24:12.600 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:24:12.601 +05:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] CreateProduct(TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:24:12.603 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-13 03:24:12.604 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie) in 2.3673ms
+2024-12-13 03:24:12.605 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:24:12.605 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5232/api/product - 400 null application/problem+json; charset=utf-8 6.7429ms
+2024-12-13 03:24:26.133 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5232/api/product - application/json 86
+2024-12-13 03:24:26.134 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:24:26.135 +05:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] CreateProduct(TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:24:26.136 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-13 03:24:26.137 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie) in 1.4411ms
+2024-12-13 03:24:26.138 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:24:26.139 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5232/api/product - 400 null application/problem+json; charset=utf-8 5.6725ms
+2024-12-13 03:24:28.611 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5232/api/product - application/json 85
+2024-12-13 03:24:28.612 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:24:28.613 +05:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] CreateProduct(TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:24:28.614 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-13 03:24:28.615 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie) in 1.4689ms
+2024-12-13 03:24:28.616 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:24:28.617 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5232/api/product - 400 null application/problem+json; charset=utf-8 5.6513ms
+2024-12-13 03:24:35.871 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product - application/json 85
+2024-12-13 03:24:35.873 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:24:35.873 +05:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TestovoeZadanie.Models.Product]]] GetProducts() on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:24:35.875 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+2024-12-13 03:24:35.876 +05:00 [INF] Успешно получен список всех продуктов.
+2024-12-13 03:24:35.877 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TestovoeZadanie.Models.Product, TestovoeZadanie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-13 03:24:35.878 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie) in 3.5894ms
+2024-12-13 03:24:35.878 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:24:35.879 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product - 200 null application/json; charset=utf-8 8.1869ms
+2024-12-13 03:25:15.744 +05:00 [INF] Application is shutting down...
+2024-12-13 03:32:19.487 +05:00 [WRN] Overriding address(es) 'http://localhost:5232'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-12-13 03:32:19.522 +05:00 [INF] Now listening on: http://127.0.0.1:5231
+2024-12-13 03:32:19.523 +05:00 [INF] Now listening on: https://127.0.0.1:5232
+2024-12-13 03:32:19.523 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-13 03:32:19.524 +05:00 [INF] Hosting environment: Development
+2024-12-13 03:32:19.524 +05:00 [INF] Content root path: C:\Users\Bauyr\Desktop\KidsstoreTest\zadanie1
+2024-12-13 03:32:36.869 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product - application/json 85
+2024-12-13 03:32:36.895 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:32:36.909 +05:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TestovoeZadanie.Models.Product]]] GetProducts() on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:32:37.526 +05:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+2024-12-13 03:32:37.592 +05:00 [INF] Успешно получен список всех продуктов.
+2024-12-13 03:32:37.598 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TestovoeZadanie.Models.Product, TestovoeZadanie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-13 03:32:37.653 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie) in 739.6597ms
+2024-12-13 03:32:37.659 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:32:37.667 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product - 200 null application/json; charset=utf-8 799.1532ms
+2024-12-13 03:32:59.779 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5232/api/product - application/json 83
+2024-12-13 03:32:59.782 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:32:59.788 +05:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] CreateProduct(TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:32:59.816 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-13 03:32:59.834 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie) in 44.602ms
+2024-12-13 03:32:59.835 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:32:59.836 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5232/api/product - 400 null application/problem+json; charset=utf-8 57.1175ms
+2024-12-13 03:33:19.643 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5232/api/product - application/json 114
+2024-12-13 03:33:19.646 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:33:19.646 +05:00 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] CreateProduct(TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:33:19.745 +05:00 [INF] Executed DbCommand (11ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Category", "Description", "Name", "Price")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-12-13 03:33:19.762 +05:00 [INF] Продукт с ID 7 успешно создан.
+2024-12-13 03:33:19.763 +05:00 [INF] Executing CreatedAtActionResult, writing value of type 'TestovoeZadanie.Models.Product'.
+2024-12-13 03:33:19.772 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie) in 124.7638ms
+2024-12-13 03:33:19.773 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.CreateProduct (TestovoeZadanie)'
+2024-12-13 03:33:19.773 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5232/api/product - 201 null application/json; charset=utf-8 130.2874ms
+2024-12-13 03:33:22.580 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product - application/json 114
+2024-12-13 03:33:22.582 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:33:22.583 +05:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TestovoeZadanie.Models.Product]]] GetProducts() on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:33:22.627 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+2024-12-13 03:33:22.629 +05:00 [INF] Успешно получен список всех продуктов.
+2024-12-13 03:33:22.629 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TestovoeZadanie.Models.Product, TestovoeZadanie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-13 03:33:22.630 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie) in 46.0662ms
+2024-12-13 03:33:22.631 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:33:22.632 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product - 200 null application/json; charset=utf-8 51.1966ms
+2024-12-13 03:33:54.227 +05:00 [INF] Request starting HTTP/1.1 PUT https://localhost:5232/api/product/7 - application/json 147
+2024-12-13 03:33:54.229 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie)'
+2024-12-13 03:33:54.232 +05:00 [INF] Route matched with {action = "UpdateProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateProduct(Int32, TestovoeZadanie.Models.Product) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:33:54.251 +05:00 [INF] Executed DbCommand (7ms) [Parameters=[@p4='?' (DbType = Int32), @p0='?', @p1='?', @p2='?', @p3='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Products" SET "Category" = @p0, "Description" = @p1, "Name" = @p2, "Price" = @p3
+WHERE "Id" = @p4;
+2024-12-13 03:33:54.253 +05:00 [INF] Продукт с ID 7 успешно обновлен.
+2024-12-13 03:33:54.256 +05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-12-13 03:33:54.256 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie) in 23.0046ms
+2024-12-13 03:33:54.257 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.UpdateProduct (TestovoeZadanie)'
+2024-12-13 03:33:54.258 +05:00 [INF] Request finished HTTP/1.1 PUT https://localhost:5232/api/product/7 - 204 null null 30.7178ms
+2024-12-13 03:33:56.661 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product/7 - application/json 147
+2024-12-13 03:33:56.663 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProduct (TestovoeZadanie)'
+2024-12-13 03:33:56.666 +05:00 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] GetProduct(Int32) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:33:56.732 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+WHERE p."Id" = @__p_0
+LIMIT 1
+2024-12-13 03:33:56.735 +05:00 [INF] Продукт с ID 7 успешно найден.
+2024-12-13 03:33:56.736 +05:00 [INF] Executing OkObjectResult, writing value of type 'TestovoeZadanie.Models.Product'.
+2024-12-13 03:33:56.737 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProduct (TestovoeZadanie) in 69.7115ms
+2024-12-13 03:33:56.737 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProduct (TestovoeZadanie)'
+2024-12-13 03:33:56.738 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product/7 - 200 null application/json; charset=utf-8 76.8215ms
+2024-12-13 03:33:59.781 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product - application/json 147
+2024-12-13 03:33:59.783 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:33:59.784 +05:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TestovoeZadanie.Models.Product]]] GetProducts() on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:33:59.786 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+2024-12-13 03:33:59.787 +05:00 [INF] Успешно получен список всех продуктов.
+2024-12-13 03:33:59.787 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TestovoeZadanie.Models.Product, TestovoeZadanie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-13 03:33:59.788 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie) in 3.7108ms
+2024-12-13 03:33:59.789 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:33:59.790 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product - 200 null application/json; charset=utf-8 8.5958ms
+2024-12-13 03:34:10.434 +05:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:5232/api/product/6 - application/json 147
+2024-12-13 03:34:10.436 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.DeleteProduct (TestovoeZadanie)'
+2024-12-13 03:34:10.439 +05:00 [INF] Route matched with {action = "DeleteProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProduct(Int32) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:34:10.443 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+WHERE p."Id" = @__p_0
+LIMIT 1
+2024-12-13 03:34:10.455 +05:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = @p0;
+2024-12-13 03:34:10.458 +05:00 [INF] Продукт с ID 6 успешно удален.
+2024-12-13 03:34:10.458 +05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-12-13 03:34:10.459 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.DeleteProduct (TestovoeZadanie) in 19.2208ms
+2024-12-13 03:34:10.460 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.DeleteProduct (TestovoeZadanie)'
+2024-12-13 03:34:10.460 +05:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:5232/api/product/6 - 204 null null 26.0439ms
+2024-12-13 03:34:12.851 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product/6 - application/json 147
+2024-12-13 03:34:12.853 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProduct (TestovoeZadanie)'
+2024-12-13 03:34:12.853 +05:00 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TestovoeZadanie.Models.Product]] GetProduct(Int32) on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:34:12.856 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+WHERE p."Id" = @__p_0
+LIMIT 1
+2024-12-13 03:34:12.857 +05:00 [WRN] Продукт с ID 6 не найден.
+2024-12-13 03:34:12.857 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-12-13 03:34:12.859 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProduct (TestovoeZadanie) in 4.4338ms
+2024-12-13 03:34:12.859 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProduct (TestovoeZadanie)'
+2024-12-13 03:34:12.860 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product/6 - 404 null text/plain; charset=utf-8 9.2087ms
+2024-12-13 03:34:15.944 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5232/api/product - application/json 147
+2024-12-13 03:34:15.946 +05:00 [INF] Executing endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:34:15.946 +05:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TestovoeZadanie.Models.Product]]] GetProducts() on controller TestovoeZadanie.Controllers.ProductController (TestovoeZadanie).
+2024-12-13 03:34:15.948 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Category", p."Description", p."Name", p."Price"
+FROM "Products" AS p
+2024-12-13 03:34:15.950 +05:00 [INF] Успешно получен список всех продуктов.
+2024-12-13 03:34:15.950 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TestovoeZadanie.Models.Product, TestovoeZadanie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-13 03:34:15.951 +05:00 [INF] Executed action TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie) in 3.9073ms
+2024-12-13 03:34:15.952 +05:00 [INF] Executed endpoint 'TestovoeZadanie.Controllers.ProductController.GetProducts (TestovoeZadanie)'
+2024-12-13 03:34:15.952 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5232/api/product - 200 null application/json; charset=utf-8 8.1983ms
+2024-12-13 03:35:05.603 +05:00 [INF] Application is shutting down...
